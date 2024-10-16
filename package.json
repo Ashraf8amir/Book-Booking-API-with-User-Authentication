@@ -1,0 +1,21 @@
+{
+  "name": "book-collection-api",
+  "version": "1.0.0",
+  "description": "Build an API that allows Authors to maintain a personal book collection. Authors can add, edit, delete, and view their books and Gust can view their books and Some other features . JWT authentication is Authors to ensure users only have access to their own collections",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon start"
+  },
+  "author": "Ashraf Samir",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "joi": "^17.13.3",
+    "mongoose": "^8.7.1"
+  },
+  "devDependencies": {
+    "morgan": "^1.10.0",
+    "nodemon": "^3.1.7"
+  }
+}
